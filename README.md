@@ -26,9 +26,4 @@ addSbtPlugin("com.jc776" % "sbt-spring-loaded" % "0.0.1-SNAPSHOT")
 
 ## License
 
-Here's my interpretation, I'm not a lawyer:
-
-- [kbrowder/sbt-spring-loaded](https://github.com/kbrowder/sbt-spring-loaded) is GPLv3, and this plugin uses bits of that, so this one is GPL
-- Changes made: It's on SBT 1.0. I'm using revolver instead of the custom Process stuff.
-- This GPL shouldn't affect the license of anything that uses it as a dev tool
-- Derivative plugins modified from this, or compound plugins using it should be GPL
+GPLv3, see LICENSE.txt ([kbrowder/sbt-spring-loaded](https://github.com/kbrowder/sbt-spring-loaded) is GPLv3, and this plugin uses bits of it)
